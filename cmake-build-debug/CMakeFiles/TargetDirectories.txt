@@ -1,0 +1,3 @@
+K:/Kinho/Programacao/C/1068-uri/cmake-build-debug/CMakeFiles/Verificador_de_parenteses.dir
+K:/Kinho/Programacao/C/1068-uri/cmake-build-debug/CMakeFiles/edit_cache.dir
+K:/Kinho/Programacao/C/1068-uri/cmake-build-debug/CMakeFiles/rebuild_cache.dir

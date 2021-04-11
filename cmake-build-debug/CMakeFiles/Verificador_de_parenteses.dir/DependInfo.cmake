@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "K:/Kinho/Programacao/C/1068-uri/main.c" "K:/Kinho/Programacao/C/1068-uri/cmake-build-debug/CMakeFiles/Verificador_de_parenteses.dir/main.c.obj"
+  "/home/marco/Documentos/Programming/C/1068-uri/1068-uri/main.c" "/home/marco/Documentos/Programming/C/1068-uri/1068-uri/cmake-build-debug/CMakeFiles/Verificador_de_parenteses.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

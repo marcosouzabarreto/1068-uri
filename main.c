@@ -13,6 +13,12 @@ int verificador_de_parenteses(tp_pilha pilha, int tamanho, const char *expressao
             push(&pilha, caractere);
         }
     }
+
+    if(altura_pilha(&pilha)==0) {
+        printf("Nenhum parenteses foi escrito");
+        exit(0);
+    }
+
     while(!pilha_vazia(&pilha)){
         pop(&pilha, &e);
         if(verificador<0){
@@ -20,7 +26,11 @@ int verificador_de_parenteses(tp_pilha pilha, int tamanho, const char *expressao
         }
         e==40 ? verificador++ : verificador--;
     }
-    if (verificador!=0) return 0;
+    if (verificador!=0) {
+        return 0;
+    } else {
+        return 1;
+    }
 }
 int main()
 {
@@ -32,10 +42,6 @@ int main()
 
     tamanho = strlen(expressao);
 
-    if (tamanho<=4) {
-        printf("Nada foi inserido");
-        return 0;
-    }
     funcionou = verificador_de_parenteses(pilha, tamanho, expressao);
     funcionou? printf("Esta certo") : printf("esta errado");
 

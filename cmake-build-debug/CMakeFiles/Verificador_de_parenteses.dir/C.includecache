@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/marco/Documentos/Programming/C/1068-uri/1068-uri/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+pilha.h
+/home/marco/Documentos/Programming/C/1068-uri/1068-uri/pilha.h
+
+/home/marco/Documentos/Programming/C/1068-uri/1068-uri/pilha.h
+stdio.h
+-
+

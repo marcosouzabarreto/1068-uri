@@ -1,0 +1,1 @@
+CMakeLists.txt not found in /home/marco/Documentos/Programming/C/1068-uri/1068-uri Select CMakeLists.txt

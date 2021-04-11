@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Verificador_de_parenteses.dir/main.c.obj"
-  "Verificador_de_parenteses.exe"
-  "Verificador_de_parenteses.exe.manifest"
+  "CMakeFiles/Verificador_de_parenteses.dir/main.c.o"
+  "Verificador_de_parenteses"
   "Verificador_de_parenteses.pdb"
-  "libVerificador_de_parenteses.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
